@@ -1,33 +1,47 @@
-# 📊 Real-Time Twitter Sentiment Analysis Dashboard
+# Real-Time Twitter Sentiment Analysis Dashboard 📊🐤
 
-An interactive real-time sentiment analysis web application built using **Python**, **NLP (TextBlob)**, and **Streamlit**.
+An attractive, interactive Streamlit NLP application that performs sentiment analysis and text analytics on Twitter data in real time. It uses Natural Language Processing (TextBlob & Regex) to clean tweets, compute sentiment polarity, and generate visual distribution charts.
 
-## 📌 Features
-- **Text Cleaning (NLP):** Cleans raw tweets by removing URLs, mentions, hashtags, and special characters using Regex.
-- **Sentiment Classification:** Categorizes text into **Positive**, **Neutral**, and **Negative** sentiments based on polarity scores.
-- **Interactive Dashboard:** Built with Streamlit, showcasing key metrics, raw data tables, and sentiment distribution charts.
-- **Custom Analysis:** Allows users to input custom text to analyze sentiment in real-time.
+---
 
-## 🛠️ Tech Stack
-- **Language:** Python
-- **Libraries:** Streamlit, Pandas, TextBlob, Matplotlib, Seaborn, Re
+## 🖼️ Dashboard Screenshots
 
-## 🚀 Getting Started
+### 1. Batch Data Analysis & Sentiment Analytics
+![Batch Sentiment Analytics](batch_sentiment_dashboard.png)
 
-### Prerequisites
-Make sure you have Python installed on your system.
+---
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/vishal-jadhav876/Twitter_Sentiment_Analysis.git](https://github.com/vishal-jadhav876/Twitter_Sentiment_Analysis.git)
-   cd Twitter_Sentiment_Analysis
-   ```
-2. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Streamlit application:
-   ```bash
-   streamlit run app.py
-   ```
+### 2. Custom Text Analysis Lab
+![Custom Text Lab](custom_text_lab.png)
+
+---
+
+## 🚀 Key Features
+
+* **📁 Batch Data Analysis:** Analyzes multiple tweet datasets simultaneously and displays real-time metrics (Total, Positive, Neutral, Negative).
+* **📈 Interactive Visualizations:** Built-in dark mode Seaborn & Matplotlib bar charts showing sentiment distribution.
+* **✍️ Custom Text Lab:** Live playground to test individual custom text or tweets with instant polarity scoring.
+* **🧹 NLP Preprocessing:** Automatic removal of URLs, hashtags, mentions, retweets, and special characters.
+
+---
+
+## 🛠️ Tech Stack & Dependencies
+
+* **Language:** Python 3.8+
+* **Web Framework:** Streamlit
+* **NLP & Text Processing:** TextBlob, Re (Regex)
+* **Data Processing:** Pandas
+* **Data Visualization:** Matplotlib, Seaborn
+
+---
+
+## 📁 Project Structure
+
+```text
+Real-Time Sentiment Analysis on Twitter Data/
+│
+├── app.py                         # Main Streamlit Dashboard Application
+├── batch_sentiment_dashboard.png  # Screenshot: Batch Analytics Dashboard View
+├── custom_text_lab.png            # Screenshot: Live Text Lab View
+├── requirements.txt               # List of required dependencies
+└── README.md                      # Project documentation
